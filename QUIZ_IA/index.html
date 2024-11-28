@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio da IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div id="menu" class="menu">
+            <h1>Desafio da IA</h1>
+            <p>Teste seus conhecimentos sobre Inteligência Artificial!</p>
+            <button id="startButton">Iniciar Jogo</button>
+        </div>
+
+        <div id="game" class="game" style="display: none;">
+            <h2>Você está jogando!</h2>
+            <div id="question"></div>
+            <div id="options"></div>
+            <p>Score: <span id="score">0</span></p>
+        </div>
+
+        <div id="endScreen" class="end-screen" style="display: none;">
+            <h2>Fim de Jogo</h2>
+            <p>Seu Score Final: <span id="finalScore"></span></p>
+            <button id="restartButton">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
